@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
-mongoose.connect('mongodb://localhost/urlShortener', {
+mongoose.connect('mongodb+srv://VIJAY:7845534921@cluster0.odrx0.mongodb.net/urlShortAmeer?retryWrites=true&w=majority', {
   useNewUrlParser: true, useUnifiedTopology: true
 })
 
